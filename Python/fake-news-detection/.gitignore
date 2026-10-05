@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Dataset
+data/raw/*
+data/processed/*
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# Results generated locally
+results/figures/*
+results/metrics/*
+
+# OS
+.DS_Store
+Thumbs.db
